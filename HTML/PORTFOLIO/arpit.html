@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Arpit Gupta's Portfolio</title>
+    <meta name="description" content="Arpit Gupta's Portfolio">
+    <meta name="keyword" content="Portfolio">
+    <meta name="author" content="Arpit Gupta">
+    <meta http-equiv="refresh" content="300">
+    <link rel="stylesheet" href="../../CSS/nav.css">
+    <style>
+        /* setting the position and the size of container for text */
+        .text {
+
+            height: 400px;
+            width: 400px;
+            background-color: #fafce766;
+            margin: 10% 10% 0% 10%;
+            border-radius: 50px;
+            position: relative;
+            left: 30%;
+        }
+
+        /* setting the positon of container of image */
+        .myimage {
+            position: absolute;
+            left: 16%;
+        }
+        /* setting the image size */
+        .myimage img{
+            height: 100%;
+            width: 120%;
+        }
+
+        /* styling the myname, and aligning the position */
+        p.myname {
+            margin-top: 12%;
+            font-size: 40px;
+            color: #008000;
+            text-align: center;
+        }
+        /* styling the myinfo, and aligning the position */
+        p.myinfo {
+            margin: 10% 13% 0% 13%;
+            line-height: 23px;
+            justify-content: center;
+            color: #537786;
+            text-align: justify;
+            font-weight: 900;
+        }
+        /* styling the button and setting it's position */
+        button {
+            margin-top: 8%;
+            margin-left: 30%;
+            padding: 2% 0%;
+            background-color: #969595;
+            width: 34%;
+            font-size: 18px;
+            letter-spacing: 3px;
+            font-weight: bolder;
+            color: #daeed7;
+        }
+        /* adding hover effect to the button */
+        button:hover {
+            color: #95f495;
+            cursor: pointer;
+            box-shadow: 5px 5px 2px #9cf29c;
+        }
+
+        /* styling the experience contaienr */
+        .experience {
+            height: 300px;
+            width: 35%;
+            background-color: #fafce799;
+            margin: auto;
+            border-radius: 20px;
+        }
+
+        /* styling the heading for experience,skills,education */
+        .myexperience,
+        .myskills,
+        .myeducation {
+            font-size: 60px;
+            text-align: center;
+            padding-top: 32px;
+            color: #008000;
+        }
+
+        /* styling and aligning the lists */
+        .experience-list,
+        .skills-list {
+            list-style-type: none;
+            margin-top: 33px;
+            font-size: large;
+            font-weight: bold;
+            margin-left: 80px;
+            line-height: 40px;
+            color: #537786;
+        }
+
+        /* aligning the containers in their positions */
+        .skills-education {
+            display: flex;
+            gap: 40px;
+            margin-top: 50px;
+            height: 350px;
+        }
+
+        /* styling the skills container */
+        .skills{
+            width: 60%;
+            background-color: #fafce799;
+            margin-left: 30px;
+            border-radius: 20px;
+        }
+         /* styling the education container */
+        .education {
+            width: 33%;
+            background-color: #fafce799;
+            border-radius: 20px;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        .td1 {
+            width: 40%;
+            padding: 10px 30px;
+        }
+
+        .td2 {
+            width: 60%;
+            padding: 10px 0px;
+        }
+
+        /* styling and aligning the education-text container */
+        .education-text {
+            margin-top: 25px;
+            color: #537786;
+            font-size: large;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<!-- putting an image as a background and fixing it's position -->
+<body style="background: linear-gradient(to right,rgb(190, 254, 190), rgb(158, 246, 158), rgb(110, 253, 110), rgb(97, 250, 97))">
+    <!-- Header contains the navigation bar -->
+    <header>
+        <!-- 'header' class is a container -->
+        <div class="header">
+
+        <div class="image">
+            <!-- Logo for the website -->
+            <img src="../../IMAGES/logo.png" alt="" class="logo">
+        </div>
+        <!-- 'navbar' class contains the headings in the navbar -->
+        <div class="navbar">
+             <!-- anchor tag and unordered list is used add elements in the navbar -->
+            <nav>
+
+                <ul>
+                    <li><a href="../../home.html">Home</a></li>
+                    <li><a href="../blog.html">Blog</a></li>
+                    <li><a href="../products.html">Products</a></li>
+                    <li><a href="../research.html">Research</a></li>
+                    <li><a href="../aboutus.html">About US</a></li>
+                    <li><a href="../form.html">Feedback</a></li>
+                </ul>
+
+            </nav>
+        </div>
+        <!-- Displays the cart image at the navbar -->
+        <div class="cart">
+            <img src="../../IMAGES/cart.png" alt="">
+        </div>
+        <div id="cart-items">
+            0
+        </div>
+    </div>
+</header>
+<!-- 'spacing' class is used to give space from top -->
+    <div class="spacing"></div>
+    <!-- creating the info container -->
+    <div class="info" style="display: flex; margin-bottom: 6.1%;">
+        <div class="myimage">
+            <img src="../../IMAGES/MEMBERS/arpit1.png" alt="">
+        </div>
+        <div class="text">
+            <!-- writing the name into the container -->
+            <p class="myname"> I'm Arpit Gupta</p>
+            <!-- writing short description -->
+            <p class="myinfo">Currently studying Bachelors (Hons.) Computing at Islington college. I'm very passonaite
+                in learning various programming language and my goal is to become a software engineer. </p>
+                <!-- linking to the CV -->
+            <div class="view"><a href="./arpitcv.html"><button>View CV</button></a></div>
+        </div>
+    </div>
+    <!-- styling the hr tag -->
+    <hr style="height: 7px; background-color: rgba(41, 94, 69, 0.379);">
+    <!-- creating a container 'experience' -->
+    <div class="experience" style="margin-top: 2%; margin-bottom: 2%;">
+        <div class="area">
+            <!-- heading for the container -->
+            <p class="myexperience">Experience</p>
+            <!-- list for the container -->
+            <ul class="experience-list">
+                <li>Worked in a team during various events</li>
+                <li>Member of visual arts club</li>
+                <li>Writing basic computer programs</li>
+            </ul>
+        </div>
+    </div>
+    <!-- styling the hr tag -->
+    <hr style="height: 7px; background-color: rgba(41, 94, 69, 0.379);">
+    <!-- creating a container 'skills' -->
+    <div class="skills-education">
+        <div class="skills">
+            <!-- heading for the skills -->
+            <p class="myskills">Skills</p>
+
+            <div style="display: flex;">
+                <!-- list for the skills -->
+                <ul class="skills-list">
+                    <li>Fluent in English and Nepali</li>
+                    <li>Can work on my own and on a team as well</li>
+                    <li>Knowledge about various Programming Language</li>
+                    <li>Knowledge in technical Writing</li>
+                </ul>
+                <!-- image -->
+                <img src="../../IMAGES/laptop.webp" alt="" style="width: 250px; margin-top: 30px; margin-left: 150px; border-radius: 20px;">
+            </div>
+        </div>
+        <div class="education">
+            <!-- heading for the education -->
+            <p class="myeducation">Education</p>
+            <!-- details about the education -->
+            <div class="education-text">
+                <table>
+                    <tr>
+                        <td class="td1">2010-2020</td>
+                        <td class="td2">Graded English Medium School(GEMS)</td>
+                    </tr>
+                    <tr>
+                        <td class="td1">2020-2022</td>
+                        <td class="td2">GEMS Institute of Highern Education(GIHE)</td>
+                    </tr>
+                    <tr>
+                        <td class="td1">2022-present</td>
+                        <td class="td2">Islington College</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Research</title>
+    <meta name="description" content="Research Page for the website">
+    <meta name="keyword" content="Research section">
+    <meta name="author" content="Arpit Gupta, Nikhilesh Shrestha, Jayesh Rajbhandari, Prashansa Lama, Ankit Raj Mainali">
+    <meta http-equiv="refresh" content="300">
+    <!-- linking nav.css to this page -->
+    <link rel="stylesheet" href="../CSS/nav.css">
+    <!-- linking footer.css to this page -->
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <style>
+        /* styling container for the research section */
+        .research-main {
+            width: 90%;
+            margin: auto;
+            margin-top: 50px;
+        }
+         /* styling the heading of research section */
+        .research-heading {
+            font-size: 40px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+        }
+         /* styling the text of research section */
+        .research-writing {
+            margin: 15px 0px;
+            font-family:  'Geneva', Verdana, sans-serif;
+
+            font-size: 18px;
+        }
+
+        /* styling the actual research */
+        .research1, .research2 {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 30px 10px;
+        }
+
+        /* styling the image for research */
+        .research1 img, .research2 img {
+            width: 100%;
+        }
+         /* setting the width of the image container for research */
+        .research-image {
+            width: 50%;
+        }
+
+        /* styling the information section of the research */
+        .research-text {
+            width: 40%;
+            /* margin-top: 50px; */
+            text-align: justify;
+            line-height: 40px;
+            font-size: 18px;
+            letter-spacing: 1px;
+        }
+
+        /* styling the name of reference website */
+        .research-website-name {
+            padding-top: 30px;
+            margin-left: 50px;
+            font-size: 34px;
+            font-family:'Courier New', Courier, monospace;
+            color: #464646;
+            font-weight: bold;
+        }
+        /* styling the name of our website */
+        .our-website-name {
+            padding-top: 30px;
+            margin-left:650px;
+            font-size: 34px;
+            font-family:'Courier New', Courier, monospace;
+            color: #464646;
+            font-weight: bold;
+        }
+        /* styling to give color to certain elements */
+        .color{
+            margin-top: 40px;
+            padding-bottom: 30px;
+            background-color: #a4a4f180;
+        }
+        
+        .research-writing-websites{
+            margin-left: 40px;
+            margin-top: 20px;
+        }
+        ol li a{
+            color: #6666e5;
+        }
+         
+        ol li a:hover{
+            color: #f16868;
+        }
+        ol li a:active{
+            color: #660066;
+        }
+    </style>
+</head>
+
+<!-- putting an image as a background and fixing it's position -->
+
+<body style="background-image: url('../IMAGES/Background.png'); background-size: 100%;background-attachment: fixed;">
+    <!-- Header contains the navigation bar -->
+    <header>
+        <!-- 'header' class is a container -->
+        <div class="header">
+            <div class="image">
+                <!-- Logo for the website -->
+                <img src="../IMAGES/logo.png" alt="company-logo" class="logo">
+            </div>
+            <!-- 'navbar' class contains the headings in the navbar -->
+            <div class="navbar">
+                <!-- anchor tag and unordered list is used add elements in the navbar -->
+                <nav>
+                    <ul>
+
+                        <li><a href="../home.html">Home</a></li>
+                        <li><a href="./blog.html">Blog</a></li>
+                        <li><a href="./products.html">Products</a></li>
+                        <li><a style="color: #ff8c69;">Research</a></li>
+                        <li><a href="./aboutus.html">About US</a></li>
+                        <li><a href="./form.html    ">Feedback</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- Displays the cart image at the navbar -->
+            <div class="cart">
+                <img src="../IMAGES/cart.png" alt="">
+            </div>
+            <div id="cart-items">
+                0
+            </div>
+        </div>
+    </header>
+    <!-- 'spacing' class is used to give space from top -->
+    <div class="spacing"></div>
+    <!-- container for all the research part -->
+    <div class="research-main">
+        <div>
+            <!-- main heading -->
+            <div class="research-heading">
+                Welcome to our Research section
+            </div>
+            <!-- introduction to the research section -->
+            <div class="research-writing">
+                In our research section you will be able to find the references the we took from other websites. Our development team has taken ideas from various other websites and implemented in their own way. Here are some of the website from which the references were taken.
+                <div class="research-writing-websites">
+                    <ol>
+                        <li><a href="#one">Carloine Hjerpe</a></li>
+                        <li><a href="#two">Doko Recyclers</a></li>
+                        <li><a href="#three">Horti Future</a></li>
+                        <li><a href="#four">Amazon</a></li>
+                        <li><a href="#five">My Second Teacher</a></li>
+                    </ol>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Research 1 -->
+        <div class="color" id="one">
+            <!-- Name of reference website -->
+            <p class="research-website-name">Reference Website: Caroline Hjerpe</p>
+            <div class="research1">
+                <div class="research-image">
+                    <!-- image of reference website -->
+                    <img src="../IMAGES/RESEARCH-IMAGES/real-research1.png" alt="">
+                </div>
+                <!-- information about reference website -->
+                <div class="research-text">
+                    The given website namely Caroline Hjerpe is an alluring and engaging hand jewelry especially ring business based website. This online website engages in the production and  trading of well-crafted rings with stones as gifts, souvenirs and so on. The website has a quote coded at the center as an enthusiasm with their products presented below it.  <br>
+                    <a href="https://carolinehjerpe.se/">Link to the website</a>
+                </div>
+            </div>
+            <!-- Name of our website -->
+            <p class="our-website-name">Our Website: Boonsai</p>
+            <div class="research2">
+                <!-- Comparision to the reference website -->
+                <div class="research-text">
+                    The given website compared to ours is equally paraphrased, coded and presented in the terms of visualization with the aim to display magnificent pieces of jewelries in theirs whereas ours aim to have a whole exhibit of our top-selling specimen of bonsai. Also both websites have their words and sequences of humility to present our dedication for our customer's satisfaction. Albeit the similarities, we have also added  ratings so as to provide our customers with uttermost delicate and honest reviews from our previous customers. 
+                </div>
+                <div class="research-image">
+                    <!-- image of our website -->
+                    <img src="../IMAGES/RESEARCH-IMAGES/my-research1.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="color" id="two">
+            <!-- Name of reference website -->
+            <p class="research-website-name">Reference Website: Doko Recyclers</p>
+            <div class="research1">
+                <div class="research-image">
+                    <!-- image of reference website -->
+                    <img src="../IMAGES/RESEARCH-IMAGES/real-research2.png" alt="">
+                </div>
+                <!-- information about reference website -->
+                <div class="research-text">
+                    The presented website named Doko is an environment friendly, waste management website focused on doorstep recycling wastes . This website engages in the views of minimum wasting and maximum waste recycling and also division of non-recyclable wastes in different bins, again to reduce maximum wastes going unmanaged. It also keeps an account of resources  and energy saved through their management and influence. <br>
+                    <a href="https://dokorecyclers.com/price">Link to the website</a>
+                </div>
+            </div>
+            <!-- Name of our website -->
+            <p class="our-website-name">Our Website: Boonsai</p>
+            <div class="research2">
+                <!-- Comparision to the reference website -->
+                <div class="research-text">
+                    The given website compared to ours is again paraphrased, coded and elaborated visually with the aim to present the fanatical affection for bonsai. Compared to Doko, where the aesthetics of the website depended on their movement and their aim of recycling via different bins which can be clearly seen through the first click of it, Boonsai has rather focused on the marketing of bonsai specimen we offer. 
+                </div>
+                <div class="research-image">
+                    <!-- image of our website -->
+                    <img src="../IMAGES/RESEARCH-IMAGES/my-research2.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="color" id="three">
+            <!-- Name of reference website -->
+            <p class="research-website-name">Reference Website: Horti Future</p>
+            <div class="research1">
+                <div class="research-image">
+                    <!-- image of reference website -->
+                    <img src="../IMAGES/RESEARCH-IMAGES/real-research3.png" alt="">
+                </div>
+                <!-- information about reference website -->
+                <div class="research-text">
+                    The next referenced website Horti Future, a Dutch greenhouse projects based website. Horti Future primarily focuses assistance of flourishing more greenhouses in Netherlands. They provide with different features from technical installations to solar panels addition to even medical projects. They compared to others, keep in mind about the differences in both nature's and budget's condition. <br>
+                    <a href="https://www.hortifuture.com/Products1/solar-greenhouse.html">Link to the research-writing-websites</a>
+                </div>
+            </div>
+            <!-- Name of our website -->
+            <p class="our-website-name">Our Website: Boonsai</p>
+            <div class="research2">
+                <!-- Comparision to the reference website -->
+                <div class="research-text">
+                    The header section, particularly in Boonsai(logo) shares a similarity with Horti Future along with the slider images that accompany to liven up the home page. In comparison, Boonsai has also included the cart feature which in turn keeps a record of the amount of products in the cart.  
+
+                </div>
+                <div class="research-image">
+                    <!-- image of our website -->
+                    <img src="../IMAGES/RESEARCH-IMAGES/my-research3.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="color" id="four">
+            <!-- Name of reference website -->
+            <p class="research-website-name">Reference Website: Amazon</p>
+            <div class="research1">
+                <div class="research-image">
+                    <!-- image of reference website -->
+                    <img src="../IMAGES/RESEARCH-IMAGES/real-research4.png" alt="">
+                </div>
+                <!-- information about reference website -->
+                <div class="research-text">
+                    The current referenced website is the world's beloved online ordering website namely Amazon. This website is truly popular among the population especially for trades and transaction. Amazon if not used yet is still popular among the general public. <br>
+                    <a href="https://www.amazon.in/Nurturing-Green-Bonsai-Finish-Office/dp/B0B2S4NXJ5/ref=sr_1_1_sspa?keywords=bonsai&qid=1675220744&sprefix=%2Caps%2C262&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1">Link to the website</a>
+                </div>
+            </div>
+            <!-- Name of our website -->
+            <p class="our-website-name">Our Website: Boonsai</p>
+            <div class="research2">
+                <!-- Comparision to the reference website -->
+                <div class="research-text">
+                    Here, the referenced portion is of a bonsai specimen up for a sale. Side by side comparison and we can see the products display similarities. Boonsai has kept the effort to provide a little sneak peek about the related bonsai to let customers know about what specimen they are diving into. The design has been simplified than that of Amazon, removing some of the features such as zoom in image when rolled over.
+                </div>
+                <div class="research-image">
+                    <!-- image of our website -->
+                    <img src="../IMAGES/RESEARCH-IMAGES/my-research4.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="color" id="five">
+            <!-- Name of reference website -->
+            <p class="research-website-name">Reference Website: My Second Teacher</p>
+            <div class="research1">
+                <div class="research-image">
+                    <!-- image of reference website -->
+                    <img src="../IMAGES/RESEARCH-IMAGES/real-research5.png" alt="">
+                </div>
+                <!-- information about reference website -->
+                <div class="research-text">
+                    MST (My Second Teacher) is an educational website preferentially made for active interactions between students and teachers. It provides access to contents and also schedule for the day. It is an interactive educational website for better understanding between teachers and students. 
+                    <br>
+                    <a href="https://mysecondteacher.com.np/">Link to the website</a>
+                </div>
+            </div>
+            <!-- Name of our website -->
+            <p class="our-website-name">Our Website: Boonsai</p>
+            <div class="research2">
+                <!-- Comparision to the reference website -->
+                <div class="research-text">
+                    The footer section in particular shares the same vibe and visual impact in both MST and Boonsai. While MST devotes the intensive care towards students and teachers; their primary consumers, Boonsai focuses on  providing help of identification and general or in-depth knowledge of bonsai specimen and the team alike. The inspiration of the fooer design was used in Boonsai where the company logo is displayed at the left as that of MST and details about the website has been given in similar aspect to the MST website.
+                </div>
+                <div class="research-image">
+                    <!-- image of our website -->
+                    <img src="../IMAGES/RESEARCH-IMAGES/my-research5.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+       <!-- Creating a footer section -->
+       <footer>
+        <!-- 'footer' contains everything in the footer -->
+        <div class="footer">
+            <!-- 'main-footer' contains the upper part of the footer that contains logo and sections, flex property is used to create different division sections -->
+            <div class="main-footer">
+                <!-- section1 contains the logo as image and information of company using lists -->
+                <div class="section1">
+                    <img src="../IMAGES/logo.png" alt="company-logo" class="footer-logo">
+                    <ul class="section1-list">
+                        <li>Location: Islington College</li>
+                        <li>Phone: +977 9289378298</li>
+                        <li>Email: boonsai@gmail.com</li>
+                    </ul>
+                </div>
+                <!-- section2 contains the other webpages of the website lists and link -->
+                <div class="section2">
+                    <p class="section2-section3-heading">Our Company</p>
+                    <ul class="section2-section3-list">
+                        <li><a href="./aboutus.html">About US</a></li>
+                        <li><a href="./blog.html">Blog</a></li>
+                        <li><a href="./products.html">Products</a></li>
+                        <li><a href="./form.html">Feedback</a></li>
+                    </ul>
+                </div>
+                <!-- section3 contains the need help section designed using lists and link -->
+                <div class="section3">
+
+                    <p class="section2-section3-heading">Need Help?</p>
+                    <ul class="section2-section3-list">
+                        <li><a href="./needhelp.html">Shipping & returns</a></li>
+                        <li><a href="./needhelp.html">Refund Policy</a></li>
+                        <li><a href="./needhelp.html">Terms Of Use</a></li>
+                        <li><a href="./needhelp.html">FAQs</a></li>
+                    </ul>
+
+                </div>
+            </div>
+            <!-- 'below-footer' contains the below part of the footer that contains information about copyright, socials and date -->
+            <div class="below-footer">
+                <!-- 'below-section1' contains the copyright informationn -->
+                <div class="below-section1" style="padding-left: 50px; padding-top: 14px;">
+                    Copyright &copy; 2023 | Boonsai
+                </div>
+                <!-- 'below-section' contains the socials link of the website -->
+                <div class="below-section2" style="padding-top: 10px;">
+                    <div class="section20">
+                        <a href="https://www.instagram.com/bonsai_boonofthesky/"><img src="../IMAGES/insta-logo.png" alt="insta-logo" style="width: 28px; height: 28px;"></a>
+                        <a href="https://www.facebook.com/profile.php?id=100090128944219"><img src="../IMAGES/facebook-logo.png" alt="facebook-logo" style="width: 28px; height: 28px;"></a>
+                        <a href="https://twitter.com/Bboonofthesky"><img src="../IMAGES/twitter-logo.png" alt="twitter-logo" style="width: 28px; height: 28px;"></a>
+                    </div>
+                </div>
+                <!-- 'below-section3' contians the date and time -->
+                <div class="below-section3" style="padding-top: 14px;">
+                    <p id="date"></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- linking footer.js to research page -->
+    <script src="../JS/footer.js"></script>
+</body>
+
+</html>
